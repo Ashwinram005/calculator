@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.app {
+  border-radius: 10px;
+  background-color: black;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dis {
+  width: 100%;
+  color: white;
+  height: 60px;
+  background-color: black;
+  font-size: 2em;
+  text-align: right;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  flex-grow: 1;
+}
+
+
+.wide {
+  grid-column: span 2;
+}
+
+button {
+  height: 60px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: gray;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+button:hover {
+  background-color:rgb(108, 108, 108)
+}
+.operator {
+  background-color: orange;
+}
+.operator:hover{
+  background-color: darkorange;
+}
+@media (max-width: 600px) {
+  .dis {
+      font-size: 1.5em;
+  }
+
+  button {
+      font-size: 1.2em;
+      height: 50px;
+  }
+}
