@@ -1,0 +1,19 @@
+.bt{
+    color: green;
+  }
+  .txt{
+    color: blue;
+  }
+  .code{
+    color: brown;
+  } 
+  .stu table{
+    border: 1px red solid;
+    border-collapse: collapse;
+    width: max-content;
+    margin-bottom: 10px;
+  }
+  th, td{
+    text-align: left;
+    border: 1px red solid;
+  }

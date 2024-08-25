@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    font-family:"Inter",sans-serif;
+  }
+  #root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0;
+  }
+  h3{
+    margin: 10px 0;
+  }
+  h6{
+    margin: 10px 0;
+    text-transform:uppercase;
+  }
+  p{
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+  }
+  .card-container{
+    background-color:#5D3FD3;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.99);
+    color: #F0F0F0;
+    padding-top: 30px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  .o{
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 3px 7px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .online{
+    background-color: green;
+  }
+  .offline{
+    color: black;
+    background-color: yellow;
+  }
+  .im{
+    border: 2px solid #ffff00;
+    border-radius: 50%;
+    padding: 7px;
+    height: 150px;
+    width:150px;
+  }
+  .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .primary{
+    background-color: rgb(255, 0, 208);
+    border: solid 1px black;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 25px;
+    font-family: "Inter" sans-serif;
+  }
+  .outline{
+    background-color: transparent;
+  }
+  .skills{
+    background-color:#4c33bd;
+    text-align: left;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  .skills ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .skills ul li{
+    border: 3px solid #ffea00;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    margin:0px 10px 10px 0;
+    text-transform: uppercase;
+  }
+  .uc{
+    display:flex;
+    gap: 30px;
+    width:100%;
+  }
